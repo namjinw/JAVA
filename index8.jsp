@@ -16,9 +16,9 @@ body {
 .card-box {
 	border: 1px solid black;
 	width: 600px;
-	height: 400px;
 	display: flex;
 	justify-content: space-between;
+	gap: 10px;
 	flex-wrap: wrap;
 }
 .card {
