@@ -7,12 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="index5Avttion.jsp" method="post">
-		<input type="text" name="name" required="required" placeholder="이름"><br>
-		<input type="text" name="age" required="required" placeholder="나이"><br>
-		<input type="radio" name="gender" value="남자"><label>남자</label>
-		<input type="radio" name="gender" value="여자"><label>여자</label><br>
-		<input type="submit" value="제출">
-	</form>
+	<%
+	int[] score = {98, 1, 78, 57};
+	for (int i = 0; i < score.length; i++) {
+	%>
+	<p>과목은: <%= i + 1 %>학생의 점수는: <%=score[i] %></p>
+	<% } %>
 </body>
 </html>
